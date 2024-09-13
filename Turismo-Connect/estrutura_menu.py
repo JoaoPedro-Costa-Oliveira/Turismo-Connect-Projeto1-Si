@@ -1,12 +1,8 @@
 class EstruturaMenu():
-    #classe atribuindo funções e caracteristica, com o nome estrutra menu
-
+    
     @staticmethod
-    # é uma classe idependente que não precisa do self porque nao puxa atributos de outra função, e está acessando a classe estrutura menu
-     # vai atribuir uma função nela
-
+    
     def menu_principal():
-        # definiu a função como menu principal, todas vez que chamar ela vai aparecer isso
         print("""
             ----------------------------------
             SEJA BEM VINDO AO NOSSO SISTEMA!
@@ -22,14 +18,10 @@ class EstruturaMenu():
             ----------------------------------
             """
         )
-        # printou menu principal e o que da para fazer
         
     @staticmethod
-    # é uma classe idependente que não precisa do self porque nao puxa atributos de outra função, e está acessando a classe estrutura menu
-    # vai atribuir uma função nela
-
+    
     def menu_pontos_turisticos():
-        # definiu a função como menu do crud pontos turisticos, todas vez que chamar ela vai aparecer isso
         print(
                     """
                     ------------------------------
@@ -43,14 +35,10 @@ class EstruturaMenu():
                     ------------------------------
                     """
             )
-        #printou o menu do crud e o que da para fazer nele
-
+    
     @staticmethod 
-    # é uma classe idependente que não precisa do self porque nao puxa atributos de outra função, e está acessando a classe estrutura menu
-    # vai atribuir uma função nela
-
+    
     def menu_edicao_ponto_turistico():
-       # definiu a função como menu do de editar no crud pontos turisticos, todas vez que chamar ela vai aparecer isso
         print(
                 """
                     ------------------------------
@@ -65,14 +53,10 @@ class EstruturaMenu():
 
                 """
         )
-        #printou o campo de alterção e o que da para fazer nele
         
     @staticmethod
-    # é uma classe idependente que não precisa do self porque nao puxa atributos de outra função, e está acessando a classe estrutura menu
-    # vai atribuir uma função nela
-
+    
     def menu_usuarios():
-        # definiu a função como menu do crud usuarios, todas vez que chamar ela vai aparecer isso
         print(
                     """
                     ------------------------------
@@ -86,14 +70,10 @@ class EstruturaMenu():
                     ------------------------------
                     """
             )
-        #printou o menu e o que da para fazer nele
         
     @staticmethod
-    # é uma classe idependente que não precisa do self porque nao puxa atributos de outra função, e está acessando a classe estrutura menu
-    # vai atribuir uma função nela
-
+    
     def menu_edicao_usuario():
-        # função para editar o crud de usuarios, toda as vezes que chamar ele vai aparecer isso
         print(
                 """
                     ------------------------------
@@ -109,14 +89,10 @@ class EstruturaMenu():
 
                 """
         )
-        #printou o campo de alterção e o que da para fazer nele
-
+    
     @staticmethod
-    # é uma classe idependente que não precisa do self porque nao puxa atributos de outra função, e está acessando a classe estrutura menu
-    # vai atribuir uma função nela
-
+    
     def menu_estabelecimentos_comerciais():
-        # definiu a função como menu do crud estabelecimentos comercias, todas vez que chamar ela vai aparecer isso
         print(
                     """
                     ------------------------------
@@ -131,14 +107,11 @@ class EstruturaMenu():
                     ------------------------------
                     """
             )
-            # printou o menu do crud e o que da para fazer nele
+    
         
     @staticmethod
-    # é uma classe idependente que não precisa do self porque nao puxa atributos de outra função, e está acessando a classe estrutura menu
-    # vai atribuir uma função nela
-
+    
     def menu_edicao_estabelecimentos_comerciais():
-       # função de ediação do crud de estabelecimentos, todas as vezes que chamar vai mostrar isso
         print(
                 """
                     ------------------------------
@@ -154,4 +127,4 @@ class EstruturaMenu():
 
                 """
         )
-        #printou o campo de alterção e o que da para fazer nele
+    
